@@ -26,13 +26,14 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   
   matrix = []
+  index = 0
   while index < src.size do 
     if src[index][0] < src[index][1]
       matrix << src[index][1]
     else
       matrix << src[index][0]
     end
-    binding.pry 
+    #binding.pry 
   end
   matrix
 end
