@@ -16,9 +16,8 @@ def join_ingredients(src)
   matrix << ["I love #{src[index][0]} and #{src[index][1]} on my pizza"]
   index += 1
   #binding.pry 
-  matrix
   end
-  
+  matrix
   
 end
 
