@@ -61,6 +61,6 @@ def total_even_pairs(src)
     end
     index += 1
   end
-binding.pry
+#binding.pry
   matrix
 end
