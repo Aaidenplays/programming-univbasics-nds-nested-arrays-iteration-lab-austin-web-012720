@@ -56,8 +56,7 @@ def total_even_pairs(src)
     if src[index][1] % 2 == 0
       matrix << src[index][1]
     end
-        index += 1
-
+    index += 1
   end
   matrix
 end
