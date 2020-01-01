@@ -13,12 +13,11 @@ def join_ingredients(src)
   matrix = []
   index = 0 
   while index < src.size do
-  matrix << ["I love #{src[index][0]} and #{src[index][1]} on my pizza"]
+  matrix << "I love #{src[index][0]} and #{src[index][1]} on my pizza"
   index += 1
   #binding.pry 
   end
   matrix
-  
 end
 
 def find_greater_pair(src)
