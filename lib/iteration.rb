@@ -33,7 +33,6 @@ def find_greater_pair(src)
     else
       matrix << src[index][0]
     end
-    #binding.pry 
     index += 1
   end
   matrix
@@ -47,4 +46,16 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
+  matrix = []
+  index = 0 
+  while index < src.size do 
+    if src[index][0] % 2 == 0
+      matrix << src[index][0]
+    end
+    if src[index][1] % 2 == 0
+      matrix << src[index][1]
+    index += 1
+  end
+  matrix
 end
