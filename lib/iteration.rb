@@ -33,7 +33,7 @@ def find_greater_pair(src)
     else
       matrix << src[index][0]
     end
-    binding.pry 
+    #binding.pry 
     index += 1
   end
   matrix
