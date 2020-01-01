@@ -1,4 +1,4 @@
-requires 'pry'
+require 'pry'
 
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
@@ -15,7 +15,7 @@ def join_ingredients(src)
   while index < src.size do
   matrix << ["I love #{src[index][0]} and #{src[index][1]} on my pizza"]
   index += 1
-  binding.pry
+  binding.pry 
   matrix
   end
   
