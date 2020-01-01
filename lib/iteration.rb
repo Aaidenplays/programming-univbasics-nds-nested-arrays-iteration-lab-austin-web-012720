@@ -34,6 +34,7 @@ def find_greater_pair(src)
       matrix << src[index][0]
     end
     binding.pry 
+    index += 1
   end
   matrix
 end
