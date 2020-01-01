@@ -7,9 +7,14 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  puts "I love pepperoni and sausage on my pizza"
-  puts ""
-  puts ""
+  
+  matrix = []
+  index = 0 
+  while index < src.size 
+  do
+  matrix << "I love #{src[index][0]} and #{src[index][1]} on my pizza"
+  index += 1
+  end
   
   
 end
