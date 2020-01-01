@@ -15,7 +15,7 @@ def join_ingredients(src)
   while index < src.size do
   matrix << ["I love #{src[index][0]} and #{src[index][1]} on my pizza"]
   index += 1
-  binding.pry 
+  #binding.pry 
   matrix
   end
   
