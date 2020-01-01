@@ -52,10 +52,9 @@ def total_even_pairs(src)
   while index < src.size do 
     if src[index][0] % 2 == 0 && src[index][1] % 2 == 0
       matrix << src[index][0] + src[index][1]
-    else
-      src[index][0] % 2 == 0
+    elsif src[index][0] % 2 == 0
       matrix << src[index][0]
-    else
+    elsif
       src[index][1] % 2 == 0
       matrix << src[index][1]
     end
