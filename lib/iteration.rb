@@ -57,5 +57,5 @@ def total_even_pairs(src)
     end
   end
 #binding.pry
-  matrix
+  total
 end
